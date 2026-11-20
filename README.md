@@ -102,8 +102,6 @@ git clone https://github.com/sagtpv23-ux/LENGUAJES-DE-PROGRAMACI-N.git
 cd LENGUAJES-DE-PROGRAMACI-N/l_programación
 ```
 
-Si la carpeta del proyecto tiene otro nombre en tu copia local, ingresa a la carpeta que contiene `requirements.txt`, `sistema_rural/` y `tests/`.
-
 ### 2. Crear y activar un entorno virtual (recomendado)
 
 **Windows (PowerShell):**
@@ -113,14 +111,7 @@ python -m venv .venv
 .venv\Scripts\Activate.ps1
 ```
 
-**Linux / macOS:**
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
-### 3. Instalar dependencias
+### . Instalar dependencias
 
 ```bash
 python -m pip install --upgrade pip
